@@ -1,6 +1,5 @@
 #ifndef GO_TFLITE_H
 #define GO_TFLITE_H
-
 #define _GNU_SOURCE
 #include <stdio.h>
 #include <stdarg.h>

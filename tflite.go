@@ -6,6 +6,7 @@ package tflite
 #endif
 #cgo LDFLAGS: -ltensorflowlite_c
 #cgo linux LDFLAGS: -ldl -lrt
+#cgo CFLAGS: -I../../tensorflow/tensorflow@2
 */
 import "C"
 import (
